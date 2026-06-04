@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5 Tips for Photoshoot in London</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: #faf9f7;
+      color: #2c2c2c;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 56px 24px 48px;
+    }
+
+    header .subtitle {
+      font-size: 13px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #b0a090;
+      margin-bottom: 16px;
+    }
+
+    header h1 {
+      font-size: clamp(26px, 5vw, 42px);
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+
+    header h1 span {
+      display: block;
+      font-size: clamp(14px, 2.5vw, 18px);
+      color: #c8b89a;
+      margin-top: 10px;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .tip {
+      background: #fff;
+      border-radius: 12px;
+      padding: 36px 40px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      border-left: 4px solid #c8b89a;
+    }
+
+    .tip-number {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #b0a090;
+      margin-bottom: 8px;
+    }
+
+    .tip h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .tip h2 .zh {
+      display: block;
+      font-size: 15px;
+      font-weight: 400;
+      color: #888;
+      margin-top: 4px;
+    }
+
+    .divider {
+      width: 40px;
+      height: 1px;
+      background: #e0d8ce;
+      margin: 18px 0;
+    }
+
+    .tip p, .tip li {
+      font-size: 15px;
+      color: #444;
+    }
+
+    .tip p .zh-inline {
+      color: #888;
+      font-size: 13.5px;
+    }
+
+    .tip ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 12px;
+    }
+
+    .tip ul li {
+      padding: 8px 0 8px 20px;
+      position: relative;
+      border-bottom: 1px solid #f0ece6;
+    }
+
+    .tip ul li:last-child { border-bottom: none; }
+
+    .tip ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: #c8b89a;
+      font-size: 13px;
+      top: 9px;
+    }
+
+    .tip ul li .en { display: block; font-size: 15px; color: #2c2c2c; }
+    .tip ul li .zh { display: block; font-size: 13px; color: #999; margin-top: 2px; }
+
+    .outfit-grid {
+      display: grid;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .outfit-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: #faf9f7;
+      border-radius: 8px;
+      padding: 12px 16px;
+    }
+
+    .outfit-row .scene {
+      min-width: 140px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+    .outfit-row .scene .zh { font-weight: 400; color: #999; font-size: 12px; }
+
+    .outfit-row .arrow { color: #c8b89a; font-size: 14px; padding-top: 1px; }
+
+    .outfit-row .style { font-size: 13.5px; color: #555; }
+    .outfit-row .style .zh { font-size: 12px; color: #aaa; }
+
+    .warning-box {
+      background: #fff8f0;
+      border: 1px solid #f0d8b8;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-top: 14px;
+      font-size: 13.5px;
+      color: #7a5c30;
+    }
+
+    .warning-box strong { display: block; margin-bottom: 4px; }
+
+    .cta-section {
+      text-align: center;
+      padding: 48px 24px 64px;
+      background: #1a1a1a;
+    }
+
+    .cta-section p {
+      color: #b0a090;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .cta-section h2 {
+      color: #fff;
+      font-size: clamp(20px, 4vw, 30px);
+      font-weight: 400;
+      margin-bottom: 28px;
+      line-height: 1.5;
+    }
+
+    .cta-section h2 span {
+      display: block;
+      font-size: clamp(13px, 2vw, 16px);
+      color: #888;
+      margin-top: 6px;
+      letter-spacing: 1px;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: #bf5942;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 16px 40px;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+
+    .cta-btn:hover { background: #a84d38; }
+
+    .logo-wrap {
+      margin-bottom: 32px;
+    }
+
+    .logo-main {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: clamp(28px, 6vw, 52px);
+      font-weight: 400;
+      letter-spacing: 0.25em;
+      color: #fff;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .logo-sub {
+      font-family: 'Georgia', serif;
+      font-size: clamp(10px, 1.5vw, 13px);
+      letter-spacing: 0.35em;
+      color: #b0a090;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+
+    .ig-handle {
+      display: inline-block;
+      margin-top: 14px;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #888;
+      text-decoration: none;
+    }
+
+    .ig-handle:hover { color: #c8b89a; }
+
+    .avoid-grid {
+      display: grid;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .avoid-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: #faf9f7;
+      border-radius: 8px;
+      padding: 12px 16px;
+    }
+
+    .avoid-row .scene {
+      min-width: 150px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+    .avoid-row .scene .zh { font-weight: 400; color: #999; font-size: 12px; display: block; }
+
+    .avoid-row .x-mark { color: #c0392b; font-size: 13px; padding-top: 2px; font-weight: 700; }
+
+    .avoid-row .advice { font-size: 13.5px; color: #555; }
+    .avoid-row .advice .zh { font-size: 12px; color: #aaa; display: block; margin-top: 2px; }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 12px;
+      color: #bbb;
+      letter-spacing: 1px;
+      background: #111;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-wrap">
+    <div class="logo-main">Prisographs</div>
+    <div class="logo-sub">Pris Photography</div>
+    <a class="ig-handle" href="https://www.instagram.com/prisographs" target="_blank">@prisographs</a>
+  </div>
+  <div class="subtitle">London Photography Guide</div>
+  <h1>
+    5 Tips for Your Photoshoot in London
+    <span>倫敦拍照攻略五個貼士</span>
+  </h1>
+</header>
+
+<div class="container">
+
+  <!-- TIP 1 -->
+  <div class="tip">
+    <div class="tip-number">Tip 01</div>
+    <h2>
+      Timing Is Everything — Go Early
+      <span class="zh">選對時間：早上 + 避開人潮</span>
+    </h2>
+    <div class="divider"></div>
+    <p>
+      London's light is most flattering in the morning and during golden hour — the first hour after sunrise or the last hour before sunset.
+      <br/><span class="zh-inline">倫敦光線於早上及黃金時段（日出後一小時／日落前一小時）最為柔和。</span>
+    </p>
+    <ul style="margin-top:14px;">
+      <li>
+        <span class="en">Arrive at Tower Bridge or Westminster <strong>before 10am</strong> to beat the crowds.</span>
+        <span class="zh">Tower Bridge 及 Westminster 建議於早上十時前抵達，以避開遊客人潮。</span>
+      </li>
+      <li>
+        <span class="en">In winter, golden hour starts as early as <strong>3:30pm</strong>.</span>
+        <span class="zh">冬季日落約四時，黃金時段可早至下午三時半開始。</span>
+      </li>
+      <li>
+        <span class="en">In summer, you can shoot until <strong>9pm</strong> — a huge advantage.</span>
+        <span class="zh">夏季則可拍攝至晚上九時，時間安排更為靈活。</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- TIP 2 -->
+  <div class="tip">
+    <div class="tip-number">Tip 02</div>
+    <h2>
+      Go Beyond Big Ben
+      <span class="zh">善用倫敦獨特背景，不只限於 Big Ben</span>
+    </h2>
+    <div class="divider"></div>
+    <ul>
+      <li>
+        <span class="en"><strong>Notting Hill</strong> — Pastel-coloured townhouses and quiet lanes</span>
+        <span class="zh">彩色排屋與幽靜小巷，極具歐陸質感</span>
+      </li>
+      <li>
+        <span class="en"><strong>Shoreditch</strong> — Street murals and raw industrial backdrops</span>
+        <span class="zh">街頭壁畫配合工業風背景，風格鮮明</span>
+      </li>
+      <li>
+        <span class="en"><strong>Neal's Yard</strong> — A hidden colourful courtyard in Covent Garden</span>
+        <span class="zh">隱於 Covent Garden 的彩色庭院，遊客較少</span>
+      </li>
+      <li>
+        <span class="en"><strong>South Kensington</strong> — Red-brick architecture with a classic London feel</span>
+        <span class="zh">紅磚建築散發濃厚的經典英倫氣息</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- TIP 3 -->
+  <div class="tip">
+    <div class="tip-number">Tip 03</div>
+    <h2>
+      What NOT to Wear — by Location
+      <span class="zh">各場景的服裝禁忌</span>
+    </h2>
+    <div class="divider"></div>
+    <p>London's backdrops are visually rich — the wrong colour can disappear into the scene or clash completely.</p>
+    <p style="font-size:13px;color:#aaa;margin-top:4px;">倫敦背景視覺層次豐富，服裝選色不當容易與背景融為一體，或造成強烈衝突。</p>
+    <div class="avoid-grid" style="margin-top:16px;">
+      <div class="avoid-row">
+        <div class="scene">Parks<span class="zh">公園草地</span></div>
+        <div class="x-mark">✕</div>
+        <div class="advice">Green or busy floral prints — you'll blend into the background<span class="zh">綠色或繁複花卉圖案——容易與草地融為一體</span></div>
+      </div>
+      <div class="avoid-row">
+        <div class="scene">Telephone Booth<span class="zh">電話亭</span></div>
+        <div class="x-mark">✕</div>
+        <div class="advice">Bright red — competing directly with the iconic booth<span class="zh">鮮紅色——與標誌性紅色電話亭正面撞色</span></div>
+      </div>
+      <div class="avoid-row">
+        <div class="scene">Notting Hill<span class="zh">彩色排屋</span></div>
+        <div class="x-mark" style="color:#c8b89a;">✓</div>
+        <div class="advice">Bold colours work here — the pastel houses are your canvas<span class="zh">此處反而適合大膽用色——粉彩排屋是最佳舞台</span></div>
+      </div>
+      <div class="avoid-row">
+        <div class="scene">Shoreditch<span class="zh">磚牆／工業風</span></div>
+        <div class="x-mark">✕</div>
+        <div class="advice">Overly busy patterns — bold solids or checks work far better<span class="zh">過於繁複的圖案——大膽純色或格紋效果更佳</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIP 4 -->
+  <div class="tip">
+    <div class="tip-number">Tip 04</div>
+    <h2>
+      Scout Ahead & Always Have a Plan B
+      <span class="zh">提前勘察場地，並備妥後備方案</span>
+    </h2>
+    <div class="divider"></div>
+    <ul>
+      <li>
+        <span class="en">Use <strong>Google Street View</strong> to check the direction of light before you go.</span>
+        <span class="zh">善用 Google Street View 提前了解場地的光線方向。</span>
+      </li>
+      <li>
+        <span class="en">Prepare <strong>2–3 backup locations</strong> within walking distance of each other.</span>
+        <span class="zh">預備至少兩至三個步行距離內的後備拍攝地點。</span>
+      </li>
+      <li>
+        <span class="en">Don't cancel for rain — <strong>wet pavements reflect light beautifully</strong>.</span>
+        <span class="zh">雨天亦毋須放棄——雨後地面的光線反射效果往往出人意料地美。</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- TIP 5 -->
+  <div class="tip">
+    <div class="tip-number">Tip 05</div>
+    <h2>
+      Know the Rules Before You Shoot
+      <span class="zh">出發前了解拍攝規定</span>
+    </h2>
+    <div class="divider"></div>
+    <ul>
+      <li>
+        <span class="en"><strong>Private properties</strong> (e.g. inside Battersea Power Station) require a permit.</span>
+        <span class="zh">私人物業（如 Battersea Power Station 內部）須事先申請拍攝許可。</span>
+      </li>
+      <li>
+        <span class="en"><strong>Royal Parks</strong> (Hyde Park, Kensington Gardens, etc.) require a permit for professional shoots.</span>
+        <span class="zh">皇家公園如進行專業拍攝，亦須申請許可。</span>
+      </li>
+      <li>
+        <span class="en">Public streets are generally free, but <strong>tripods</strong> may require a permit in some areas.</span>
+        <span class="zh">公共街道一般無需許可，惟部分地點使用三腳架仍有限制。</span>
+      </li>
+      <li>
+        <span class="en">The riverside beneath <strong>Tower Bridge</strong> (Southwark side) is private land — photographers with large cameras are regularly asked to leave.</span>
+        <span class="zh">Tower Bridge 橋下 Southwark 一側屬私人土地，攜帶大型攝影器材者或會被要求離開。</span>
+      </li>
+    </ul>
+    <div class="warning-box">
+      This primarily applies to professional camera equipment. Always check the official website of each location before your visit for the latest regulations.
+      <br/><br/>
+      主要針對大型攝影器材，建議出發前先查閱該地點官方網站以了解最新規定。
+    </div>
+  </div>
+
+</div>
+
+<div class="cta-section">
+  <p>Ready to shoot?</p>
+  <h2>
+    Book a Photoshoot in London
+    <span>預約倫敦拍攝服務</span>
+  </h2>
+  <a class="cta-btn" href="https://www.prisographs.com" target="_blank">Book a Shoot with Me</a>
+</div>
+
+<footer>
+  London Photoshoot Guide &nbsp;·&nbsp; 倫敦拍照攻略 &nbsp;·&nbsp; prisographs.com
+</footer>
+
+</body>
+</html>
